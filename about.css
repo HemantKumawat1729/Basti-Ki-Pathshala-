@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #fffefc;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f8e9ff;
+  color: #4a0072;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #6a1b9a;
+  margin-bottom: 15px;
+}
+
+.mission p,
+.together p,
+.impact ul {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.impact ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+button{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #7b1fa2;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 15px;
+  background-color: #f0e6fa;
+  color: #555;
+}

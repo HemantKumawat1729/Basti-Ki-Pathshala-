@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Volunteer Form - Basti Ki Pathshala</title>
+  <link rel="stylesheet" href="volunteer.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Volunteer with Us</h1>
+    <p>Fill out the form below to become a part of our mission.</p>
+
+    <form action="index.html" method="POST" id="volunteer-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="interest">Why do you want to volunteer?</label>
+      <textarea id="interest" name="interest" rows="4" required></textarea>
+
+      <label for="availability">Availability (Days/Time)</label>
+      <input type="text" id="availability" name="availability" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
